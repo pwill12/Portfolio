@@ -609,14 +609,14 @@ footer i {
     .hero {
         height: 60vh;
     }
-    /* .container {
-        max-width: 90%;
-    } */
+    .container {
+        max-width: 88%;
+    }
     .heroContent {
-        max-width: 80%;
+        max-width: 88%;
     }
     .hero h1 {
-        font-size: 24px;
+        font-size: 25px;
     }
     .hero::after {
         /* background-image: url("../public/images/home-bg.png"); */
@@ -627,7 +627,7 @@ footer i {
     }
     section {
         height: auto;
-        padding-top: 50px;
+        padding-top: 30px;
         padding-bottom: 20px;
     }
     .contact .flexsb,
