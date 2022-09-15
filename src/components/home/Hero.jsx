@@ -1,6 +1,7 @@
 import React, { useEffect } from "react"
 import { home } from "../data/dummydata"
 import Typewriter from "typewriter-effect"
+import { Link } from "react-router-dom"
 
 export const Hero = () => {
   return (
@@ -21,9 +22,11 @@ export const Hero = () => {
               />
             </h1>
             <p data-aos='fade-left'>{val.desc}</p>
+            <Link to='/resume'>
             <button className='primaryBtn' data-aos='fade-up-right'>
               Download CV
             </button>
+            </Link>
           </div>
         ))}
       </section>

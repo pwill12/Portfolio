@@ -18,16 +18,12 @@ export const navlink = [
     text: "Portfolio",
   },
   {
-    url: "/testimonials",
-    text: "Testimonials",
-  },
-  {
-    url: "/blog",
-    text: "Blog",
-  },
-  {
     url: "/contact",
     text: "Contact",
+  },
+  {
+    url: "/resume",
+    text: "Resume",
   },
 ]
 export const home = [
@@ -188,18 +184,18 @@ export const blog = [
 export const contact = [
   {
     icon: <AddLocationAltOutlined />,
-    text1: "2651 Main Street, Suit 124",
-    text2: "Seattle, WA, 98101",
+    text1: "Ojodu,ikeja lagos State",
+    text2: "Nigeria",
   },
   {
     icon: <PhoneIphone />,
-    text1: "0123456789",
-    text2: "0345627891",
+    text1: "2348081573422",
+    text2: "+2349036580241",
   },
   {
     icon: <EmailOutlined />,
-    text1: "hello@thetheme.io",
-    text2: "inf0@brex-theme.io",
+    text1: "princesolo919@gmail.com",
+    text2: "",
   },
 ]
 export const social = [

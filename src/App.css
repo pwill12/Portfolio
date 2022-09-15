@@ -499,6 +499,10 @@
                 padding: 20px;
             }
             
+            .contact .left {
+                margin-top: 10px;
+            }
+            
             .contact .flex input:nth-child(1) {
                 margin-right: 10px;
             }
@@ -542,6 +546,7 @@
                 }
                 .contact .left {
                     padding: 20px 0;
+                    margin-top: 0px;
                 }
             }
             /*---------contact-------------*/

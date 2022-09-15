@@ -12,7 +12,7 @@ export const Header = () => {
         <div className='container flexsbar'>
           <div className='logo'>
             {/* <img src={logo} alt='' data-aos='zoom-in-right' /> */}
-            <h2>Will</h2>
+            <h1 style={{fontWeight: 600, color: ''}}>Will Okechukwu</h1>
           </div>
           <div className={responsive ? "hideMenu" : "nav"}>
             {navlink.map((links, i) => (
