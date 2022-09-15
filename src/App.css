@@ -17,7 +17,8 @@
             }
             
             body {
-                background-color: var(--headingColor);
+                /* background-color: var(--headingColor); */
+                background-color: var(--black);
                 font-family: "Roboto", sans-serif;
                 color: #d0d6da;
             }
@@ -90,10 +91,10 @@
             }
             
             header {
-                background-color: var(--headingColor);
+                /* background-color: var(--headingColor); */
                 /* height: 10vh; */
                 /* line-height: 10vh; */
-                /* background-color: #0de0c4; */
+                background-color: black;
                 position: sticky;
                 top: 0;
                 left: 0;
