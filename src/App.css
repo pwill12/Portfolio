@@ -647,3 +647,21 @@ footer i {
         padding-bottom: 50px;
     }
 }
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+    /* background-color: #0c0513; */
+    background-color: black;
+    background-image: url(./components/data/pre.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#preloader-none {
+    opacity: 0;
+}
