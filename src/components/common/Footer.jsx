@@ -10,7 +10,7 @@ const Footer = () => {
             <i data-aos='zoom-in'>{item.icon}</i>
           </>
         ))}
-        <p data-aos='zoom-in'>Copyright © Princewill {new Date().getFullYear()}</p>
+        <p>Copyright © Princewill {new Date().getFullYear()}</p>
       </footer>
     </>
   )

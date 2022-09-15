@@ -37,9 +37,9 @@ export const home = [
 ]
 export const about = [
   {
-    desc: "Hello, my name is Princewill...I'm a Full-stack developer with 2years Experience in learning,building and developing web apps..My tech stack is MERN..Currently pursuing my Bsc in Mathematics..",
+    desc: "Hello, my name is Princewill..I'm a Full-stack developer with 2years Experience in learning,building and developing web apps..My tech stack is MERN..Currently pursuing my Bsc in Mathematics..",
     desc1: "Loves Football, gaming ,Cryptocurrency,Web3,communicating with great minds and sharing ideas ",
-    cover: "./images/20210227_224606.jpg"
+    cover: "./images/IMG_20200915_163913_815_3_3.jpg"
   },
 ]
 export const services = [

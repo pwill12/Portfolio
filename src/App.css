@@ -609,14 +609,14 @@ footer i {
     .hero {
         height: 60vh;
     }
-    .container {
+    /* .container {
         max-width: 90%;
-    }
+    } */
     .heroContent {
-        max-width: 90%;
+        max-width: 80%;
     }
     .hero h1 {
-        font-size: 25px;
+        font-size: 24px;
     }
     .hero::after {
         /* background-image: url("../public/images/home-bg.png"); */
