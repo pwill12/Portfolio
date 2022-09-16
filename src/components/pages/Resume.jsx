@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { Container as div, Row } from "react-bootstrap";
-import Button from "react-bootstrap/Button";
+// import Button from "react-bootstrap/Button";
 import Particle from "./Particles";
 import pdf from "../data/WillOkechukwu001.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+import { Button } from "@mui/material";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
@@ -24,7 +25,7 @@ function ResumeNew() {
         <Particle />
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
-            variant="primary"
+            variant="outlined"
             href={pdf}
             target="_blank"
             style={{ maxWidth: "250px" }}
