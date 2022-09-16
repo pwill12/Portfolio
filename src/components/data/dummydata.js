@@ -110,7 +110,7 @@ export const portfolio = [
   {
     id: 1,
     cover: "../images/download.png",
-    name: "Brand",
+    name: "willchat",
     category: "Projects",
     title: "Chat App",
     link: 'https://willchat.netlify.com'
@@ -118,7 +118,7 @@ export const portfolio = [
   {
     id: 2,
     cover: "../images/jobs.png",
-    name: "Brand",
+    name: "willjobs",
     category: "Favourite",
     title: "Job App",
     link: 'https://willjobs.netlify.com'
@@ -126,7 +126,7 @@ export const portfolio = [
   {
     id: 3,
     cover: "../images/crypto.png",
-    name: "Brand",
+    name: "crypto-checker",
     category: "Projects",
     title: "Crypto App",
     link: 'https://crypto-checker.netlify.com'
