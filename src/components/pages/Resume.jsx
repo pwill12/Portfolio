@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Container as div, Row } from "react-bootstrap";
+import { Container, Container as div, Row } from "react-bootstrap";
 // import Button from "react-bootstrap/Button";
 import Particle from "./Particles";
 import pdf from "../data/WillOkechukwu001.pdf";
@@ -23,12 +23,12 @@ function ResumeNew() {
     <div>
       <div className="container">
         <Particle />
-        <Row style={{ justifyContent: "center", position: "relative" }}>
+        <Row style={{ justifyContent: "center", position: "relative"}}>
           <Button
-            variant="outlined"
+            variant="contained"
             href={pdf}
             target="_blank"
-            style={{ maxWidth: "250px" }}
+            style={{ maxWidth: "250px", marginBottom: "" }}
           >
             <AiOutlineDownload />
             &nbsp;Download CV
@@ -43,10 +43,10 @@ function ResumeNew() {
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
-            variant="primary"
+            variant="contained"
             href={pdf}
             target="_blank"
-            style={{ maxWidth: "250px" }}
+            style={{ maxWidth: "250px", marginTop: "10px" }}
           >
             <AiOutlineDownload />
             &nbsp;Download CV
