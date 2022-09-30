@@ -18,7 +18,7 @@
 
 body {
     /* background-color: var(--headingColor); */
-    background-color: var(--black);
+    /* background-color: var(--black); */
     font-family: "Roboto", sans-serif;
     color: #d0d6da;
 }
@@ -131,6 +131,7 @@ header a {
         /* margin-top: 20px; */
         cursor: pointer;
         display: block;
+        margin-left: 10px;
     }
     .flexsbar {
         padding: 15px 0px;
@@ -525,7 +526,7 @@ label {
 /*---------contact-------------*/
 
 .contact {
-    margin: 20px 0;
+    margin: 20px 0 0px 0;
 }
 
 .contact .right,
@@ -594,7 +595,7 @@ footer {
     text-align: center;
     background-color: var(--primaryBackground);
     padding: 70px;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 
 footer i {

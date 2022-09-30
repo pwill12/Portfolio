@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { Heading } from "../common/Heading";
 import { about } from "../data/dummydata";
 import Links from "./Link";
+import { Themedark } from "./Pages";
 
 export const About = () => {
+
+  const dark = useContext(Themedark);
+
+  const Mystyle = {
+    color: dark ? 'green': 'white'
+  }
   return (
     <>
       <section className="about">
@@ -20,7 +27,7 @@ export const About = () => {
                 <p>{val.desc1}</p>
                 <Links/>
                 <Link to="/resume">
-                  <button className="primaryBtn">Download CV</button>
+                  <button className="primaryBtn" style={Mystyle}>Download CV</button>
                 </Link>
               </div>
             </>

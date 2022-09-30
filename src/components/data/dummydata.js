@@ -1,4 +1,5 @@
 import { Settings, CropRotate, ViewInAr, PieChart, Code, BarChart, CloudOutlined, FavoriteBorder, Public, PersonOutlined, AddLocationAltOutlined, PhoneIphone, EmailOutlined, Facebook, Twitter, Instagram, YouTube } from "@mui/icons-material"
+import Darkmode from "./darkmode"
 
 export const navlink = [
   {
@@ -31,7 +32,7 @@ export const home = [
     text: "Hi I'm",
     name: "Princewill Okechukwu",
     post: "FULL-STACK DEVELOPER",
-    design: "JAVASCRIPT DEVELOPER",
+    design: "OpenSource Contributor",
     desc: "I’m a Software Developer proficient in Javascript....I specialize in building and creating fully fledged web apps from scratch....Currently into Blockchain, Opensource and building with community.",
   },
 ]

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import { Container, Container as div, Row } from "react-bootstrap";
 // import Button from "react-bootstrap/Button";
 import Particle from "./Particles";
@@ -7,6 +7,7 @@ import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import { Button } from "@mui/material";
+import { Themedark } from "./Pages";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
@@ -19,9 +20,16 @@ function ResumeNew() {
     setWidth(window.innerWidth);
   }, []);
 
+  const dark = useContext(Themedark);
+
+  const Mystyle = {
+    color: dark ? 'lightblue': '#d0d6da',
+    marginTop: '20px'
+  }
+
   return (
     <div>
-      <div className="container">
+      <div className="container" style={Mystyle}>
         <Particle />
         <Row style={{ justifyContent: "center", position: "relative"}}>
           <Button

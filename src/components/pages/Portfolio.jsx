@@ -1,14 +1,14 @@
-import React, { useState } from "react"
+import React, { useContext, useState } from "react"
 import { Heading } from "../common/Heading"
 import { portfolio } from "../data/dummydata"
 import VisibilityOutlinedIcon from "@mui/icons-material/VisibilityOutlined"
 import { Link } from "@mui/material"
+import { Themedark } from "./Pages"
 
 const allCategory = ["all", ...new Set(portfolio.map((item) => item.category))]
 export const Portfolio = () => {
   const [list, setLists] = useState(portfolio)
   const [category, setCategory] = useState(allCategory)
-  console.log(setCategory)
 
   const filterItems = (category) => {
     const newItems = portfolio.filter((item) => item.category === category)
@@ -19,6 +19,13 @@ export const Portfolio = () => {
     }
   }
 
+  const dark = useContext(Themedark);
+
+  const Mystyle = {
+    // backgroundColor: dark ? 'rgb(249, 249, 253)': 'black',
+    color: dark ? 'lightblue': '#d0d6da'
+  }
+
   return (
     <>
       <article>
@@ -26,7 +33,7 @@ export const Portfolio = () => {
           <Heading title='Some of my personal Projects' />
           <div className='catButton'>
             {category.map((category) => (
-              <button className='primaryBtn' onClick={() => filterItems(category)} data-aos='zoom-out-down'>
+              <button className='primaryBtn' onClick={() => filterItems(category)} data-aos='zoom-out-down' style={Mystyle}>
                 {category}
               </button>
             ))}
